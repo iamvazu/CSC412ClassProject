@@ -6,7 +6,7 @@ root {
 }
 .sansSerif{
     font-family: sans-serif;
-    color: red;
+    color: blueviolet;
     border-color: black;
     border-style:solid;
 }
@@ -25,6 +25,8 @@ h1 {
     text-align: center;
     font-size: 40px;
     background-color: tomato;
+    border-color: black;
+    border-style:solid;
 }
 
 ul {
@@ -47,7 +49,7 @@ li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -72,4 +74,21 @@ footer {
     color: blueviolet;
     border-color: black;
     border-style:solid;
+}
+
+main {
+    background-color: darkcyan;
+    margin: auto;
+    width: 80%;   
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    
+}
+
+table{
+    border-collapse: collapse;    
 }
